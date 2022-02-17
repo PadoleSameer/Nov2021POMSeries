@@ -1,5 +1,6 @@
 package com.qa.opencart.tests;
 
+import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.testng.Assert;
 
 import org.testng.annotations.Test;
@@ -8,7 +9,7 @@ import com.qa.opencart.util.Constants;
 
 public class LoginPageTest extends BaseTest{
 
-	@Test(priority = 1)
+	@Test(priority = 1, enabled = true)
 	public void loginPageTitleTest() {
 		
 		String pageTitle = loginPage.getLoginPageTitle();
