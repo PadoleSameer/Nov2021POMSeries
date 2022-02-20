@@ -70,7 +70,7 @@ public class AccountsPageTest extends BaseTest {
 //				{"iPad"}
 //		};
 
-		return new Object[] { "MacBook", "iPhone", "iPad" };
+		return new Object[] { "MacBook", "iPhone", "Apple" };
 
 	}
 
