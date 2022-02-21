@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Constants {
 
-	public static final String LOGIN_PAGE_TITTLE = "Account Login11";
+	public static final String LOGIN_PAGE_TITTLE = "Account Login";
 	public static final String LOGIN_PAGE_URL_FRACTION = "account/login";
 	public static final int DEFAULT_TIME_OUT = 5;
 	
